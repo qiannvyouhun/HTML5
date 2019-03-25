@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #form{
+            border: 1px solid #e0e0e0;
+            width: 350px;
+            padding:5px 5px 5px 5px;
+            overflow: auto;
+        }
+        #text{
+            height: 40px;
+            width: 200px;
+        }
+        #button{
+            height: 30px;
+            width: 120px;
+        }
+        input:focus{
+            outline:none;
+            border:1px solid #efad4e;
+        }
+        #div{
+           margin-top: 15px;
+           width: 350px;         
+        }
+        #record{
+            background:#e0e0e0;
+            margin:0 10px 10px 0;
+            display: inline-block;
+        }
+        #box{
+            background: #e0e0e0;
+            color: #fff;
+            width: 20px;
+            height: 20px;
+            float: right;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form id="form">
+        <input type="text" placeholder="请输入想查找的商品" id ="text" autofocus="">
+        <input type="button" value="搜索" id="button" ><br>
+        <span>最近搜索</span>
+        <div id="div"></div>
+        <p style="display:block" id="p"> 无记录</p>
+        <span id="box" style="display: none;cursor: pointer;">X</span>
+    </form>   
+</body>
+<script>
+    var button=document.getElementById("button");
+    var record=document.getElementById("record");
+    var div =document.getElementById("div");
+    var box=document.getElementById("box");
+    var p=document.getElementById("p");
+    // 搜索
+    button.onclick=function(){
+        var text=document.getElementById("text").value;
+        var date=new Date();
+        var time=date.toLocaleString();
+        localStorage.setItem(time, text);
+        div.innerHTML+="<span id='record'>"+text+"</span>";
+        box.style.display="block";
+        p.style.display="none";
+        document.getElementById("text").value="";
+    }
+    // 清除数据
+    box.onclick=function(){
+        var text=document.getElementById("text").value;
+        alert("要将全部数据清除？");
+        localStorage.clear();
+        div.innerHTML=null;
+        box.style.display="none";
+        p.style.display="block";
+    }
+</script>
+</html>

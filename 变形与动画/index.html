@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    #div{
+        height: 450px;
+        width: 380px;     
+        position: relative;
+        border: 3px solid #e6e5e5;   
+    }
+    #top{
+        width: 380px;
+        height: 250px;
+        background: black;
+        overflow: hidden; 
+        transition-duration: 0.7s;
+        transition-timing-function: ease;   
+    }
+    #mask{
+        height: 250px;
+        width: 380px;
+        opacity: 0.2;
+        z-index: -1;
+        background-color:  black;
+        position: absolute;
+        top:0;
+        left: 0;
+        overflow: hidden;
+        transition-duration: 0.7s;
+    }
+    #img{
+        height: 250px;
+        width:380px;
+        position: relative;
+        transform: scale(1);
+        transition-duration: 0.7s;    
+        overflow: hidden;
+        transition-timing-function: ease;
+    }
+    #bottom{
+        height: 170px;
+        width: 380px;       
+        background-color: white;   
+        transition-duration: 0.7s;
+        overflow: hidden;
+        border-bottom:3px solid #e6e5e5;
+    }  
+    #bottom1{
+        height: 30px;
+        width: 380px;
+        background-color: white;   
+        transition-duration: 0.7s;
+        overflow: hidden;
+        position: absolute;     
+        top:405px;
+        left:20px;
+        margin: 10px 0 0 -20px;
+    }
+    div:hover #top{
+        height: 130px;
+        transition-duration: 0.7s;
+        color: black;
+        transition-timing-function: ease;  
+    }
+    div:hover #img{
+        transform: scale(1.5);
+        transition-duration: 0.7s;    
+        overflow: hidden;
+        background: black;
+        transition-timing-function: ease;
+    }
+    div:hover #mask{
+        z-index: 1;
+        height: 130px;
+        transition-duration: 0.7s;
+        transition-timing-function: ease; 
+    }
+    div:hover #bottom{
+        height: 290px;
+        transition-duration: 0.7s;
+        transition-timing-function: ease;
+        overflow: hidden;
+    }
+    #p1{
+        font-size: 20px;
+        font-weight: bold;
+        margin:0 0 -8px 20px;
+    }
+    #p2{
+        font-size: 18px;
+        color: #fd7745;
+        margin-left: 20px;
+    }
+    #p3{
+        font-size: 14px;
+        color: #b9b7b7;
+        position: absolute;     
+        top:405px;
+        left:20px;
+    }
+    #p4{
+        margin:-20px 20px 0 20px;
+        font-size: 16px;
+        line-height: 30px;
+        display: none;
+        color: #838383;
+    }
+    div:hover #p4{
+        display: block;
+    }
+    #picture{
+        height: 30px;
+        width:60px;
+        position: relative;
+        left: 0px;
+        top:-30px;
+        background-color: #fd7745;
+        z-index: 2;
+        text-align: center;
+    }
+    #month{
+        position: absolute;
+        height: 50px;
+        width: 50px;
+        right: 20px;
+        top:20px;
+        background-color: #fd7546;
+        border-radius: 50%;
+        z-index: 2;
+    }
+    #p5{
+        color: white;
+        font-size: 13px;
+        font-weight:bold;    
+        line-height: 30px;   
+    }
+</style>
+<body>
+    <div id="div">        
+        <div id="top">
+            <img src="01.jpg" id="img">
+        </div> 
+        <div id="mask">xxxxxxxxxx</div> 
+        <div id="picture">
+            <span id="p5">照片</span>
+        </div>        
+        <div id="bottom">
+            <!-- <div id="picture">hhh</div> -->
+            <p id="p1">青岛栈桥</p>
+            <p id="p2">国家AAAA级旅游景区</p>
+            <p id="p4">
+                青岛栈桥是青岛海滨风景区的景点之一， 是国务院于1982年首批公布的国家级风景名胜区。
+                青岛栈桥位于游人如织的青岛中山路南端，桥身从海岸探入如弯月般的青岛湾深处。
+                桥身供游人参观并在此停靠旅游船，由此乘船可看海上青岛。
+            </p>
+           <div id="bottom1"></div>
+        </div>     
+        <p id="p3">10分钟前&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;123评论</p>
+        <div id="month">
+            <p id="p5" style="margin:5px 0 0 15px;">15</p>
+            <p id="p5" style="margin:-15px 0 0 12px">五月</p>
+        </div>      
+    </div>  
+</body>
+</html>

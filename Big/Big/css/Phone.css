@@ -1,0 +1,467 @@
+/* Phone */
+@media only screen and (max-width: 750px){
+    .o-topbar{
+        display: none;
+    }
+
+    /* nav */
+    .container:first-child {
+        height: 110px;
+        width: 750px;
+    }
+    .o-nav {
+        text-align: center;
+        height: 110px;
+        width: 750px;
+    }
+    .navbar-header {
+        margin: 0 auto;
+        height: 110px;
+        width: 668px;
+        padding: 15px 0;
+    }
+    .navbar-toggle {
+        height: 48px;
+        width: 48px;
+        margin: 16px 0;
+        padding: 0;
+        border: none;
+        width: 47px;
+    }
+    .navbar-toggle>span:first-child {
+        display: block;
+        float: left;
+        height: 24px;
+        width: 47px;
+        border-top: #000 4px solid;
+        border-bottom: #000 2px solid;
+    }
+    .navbar-toggle>span:last-child {
+        display: block;
+        float: left;
+        height: 24px;
+        width: 47px;
+        border-top: #000 2px solid;
+        border-bottom: #000 4px solid;
+    }
+    .o-nav .o-button {
+        float: right;
+        width: 165px;
+        height: 54px;
+        margin: 13px 46px;
+        cursor: pointer;
+        border-radius: 10px;
+        background-color: #cb5405;
+        text-align: center;
+        font-size: 28px;
+        line-height: 54px;
+        font-weight: 300;
+        color: #fff;
+    }
+    .navbar-brand {
+        height: 79px;
+    }
+    .navbar-collapse {
+        margin: 0 auto;
+        background-color: #fff;
+    }
+    .navbar-nav {
+        margin: 0 auto;
+    }
+    #header1{
+        display: none;        
+    }
+    #header{
+        height: 106px;
+        background: #ffffff;
+    }
+    #header2{
+        width:680px;
+    }
+    #logo{
+        margin-top:20px;
+    }
+    #generic{
+        display: none;
+    } 
+
+    /* 搜索框 */
+    #search{
+        width: 584px;
+        height: 58px;
+        position: absolute;
+        margin:0 auto;
+        left: 50%;
+        margin-left: -292px;
+        top:360px;
+        color: #666;
+        border: rgba(0, 0, 0, .5) 4px solid;
+        border-radius: 8px;
+        overflow: hidden;
+        z-index: 999;
+        background: #e1e1e1;
+    }
+    #box-s1{
+        height: 58px;
+        width: 145px;
+        background: #d3d3d8;
+        float: left;
+        text-align: center;
+        line-height: 52px;
+    }
+    #box-s1 .p{
+        margin-left:15px;
+        font-size: 19px;
+        color: rgba(0, 0, 0, .5);
+    }
+    #box-s2{
+        height:58px;
+        width:300px;
+        float:left;
+        line-height:52px;
+        font-size:18px;
+        color: rgba(0, 0, 0, .5);
+    }
+    #box-s2 li:first-child{
+        margin: 0 10px 0 13px;
+    }
+    #box-s2 li {
+        margin-right:12px;
+    }
+    #box-s3{
+        height: 58px;
+        width: 130px;
+        background: #cb5405;
+        float: right;
+        text-align: center;
+        line-height: 52px;
+    }   
+    #pc-box-jc{
+        display: none;
+    }
+    #box-qz{
+        display: none;
+    }
+    #img-qz{
+        display: none;
+    }
+    #box1-3{
+        display: none;
+    }
+    #box2{
+        display: none;
+    }
+    #box-three{
+        display:none;
+    }
+    #box3{
+        display: none;
+    }
+    #footer{
+        display: none;
+    }
+    #div{
+        width: 750px;
+        margin:0 auto;
+        background: #fff;
+    }
+    #Pbox1{
+        position: relative;
+        width:750px;
+        height: 363px;
+        margin:0 auto;
+        overflow: hidden;
+    }
+    #banner{
+        position: absolute;
+        width: 668px;
+        height: 110px;
+        top: 60px;
+        left: 50px;
+        color: #fff;
+    }
+    #banner>span:nth-child(1) {
+        float: left;
+        font-size: 40px;
+        font-weight: 340;
+        padding-bottom: 20px;
+    }
+    #banner>span:nth-child(2) {
+        float: left;
+        font-size: 28px;
+        font-weight: 300;
+    }
+    #Pbox2{
+        width:100%;
+        height:200px;
+        margin-bottom:15px;
+        background: #ffffff;
+    }
+    #Pbox-jc{
+        height: 200px;
+        width:680px;
+        margin:0 auto;
+        background: #fff;     
+    }
+    #Pbox-cl{
+        width: 110px;
+        float: left;
+        line-height:200px; 
+    }
+    #Pfont-jc1{
+        margin: 45px 0 0 5px;
+        color: #597ea1;
+        font-size: 30px;      
+    }
+    #Pfont-jc2{
+        font-size:23px;
+        color: #aaaaaa;
+        margin:10px 0 0 5px;    
+    }
+    #Pbox-cz{
+        width: 425px;
+        height:200px;
+        float: left;
+    }
+    #Pbox-xq{
+        height: 50px;
+        width: 140px;
+        border-radius: 10px;
+        border:solid  #e6e6e6 3px;
+        float: right;
+        margin-top:70px;
+        text-align: center;
+        font-size: 30px;
+        color: #7e7e7e;
+        line-height: 50px;
+    }
+    #Pbox3{
+        width: 100%;
+        margin-bottom: 20px;
+        background: #fff;
+    }
+    #Pbox-rm{
+        height: 1230px;
+        width: 680px;
+        margin:0 auto;
+        background: #fff;
+    }
+    #Pbox-rm1{
+        height: 100px;
+        width: 680px;
+        margin:0 auto;
+        margin-bottom:16px;
+        float: left;
+        border-bottom:solid #f7f7f7 2px;
+    }
+    #Pfont-rm1{
+        float: left;
+        margin-top:40px;
+        font-size: 28px;
+    }
+    #Prm-img1{
+        float: left;
+        height: 445px;
+        width: 680px;
+        margin:0 auto;
+        margin-bottom: 20px;
+    }
+    #Pbox-img1{
+        height: 115px;
+        width: 680px;
+        margin-top:-115px;
+        background: #000;
+        opacity: 0.7;
+    }
+    #Pbox-img1-1{
+        height: 115px;
+        width: 413px;
+        float: left;
+    }
+    #Pbox-img1-2{
+        height: 115px;
+        width: 256px;
+        float: left;
+    }
+    #Pfont-rm2{
+        margin: 25px 0 17px 15px;
+        color: #fff;
+        font-size: 25px;
+        line-height: 20px;
+    }
+    #Pfont-rm3{
+        font-size: 35px;
+        line-height: 115px;
+        color: #fff;
+    }
+    #Pfont-rm4{
+        font-size: 22px;
+        color: #fff;
+        margin-top:52px;
+    }
+    #Pbox-rml{
+        height: 60px;
+        width: 230px;
+        border-radius: 10px;
+        border:solid #e6e6e6 2px;
+        text-align: center;
+        line-height: 60px;
+        color: #a4a4a4;
+        float: left;
+        margin:100px 0 0 225px;
+        font-size: 30px;
+    }
+
+    /* 热门线路 */
+    #box-rm{
+        display: none;
+    }
+    #rm-left{
+        display: none;
+    }
+    #rm-right{
+        display: none;
+    }
+    #Pbox4{
+        width: 100%;
+        background: #fff;
+    }
+    #Pbox-qz{
+        height: 670px;
+        width: 680px;
+        margin: 0 auto;     
+        background: #fff;                
+    }
+    #Pbox-qz1{
+        height: 100px;
+        width: 680px;
+        margin:0 auto;
+        margin-bottom:16px;
+        border-bottom:solid #f7f7f7 2px;
+    }
+    #Pfont-qz1{
+        float: left;
+        margin-top:40px;
+        font-size: 28px;
+    }
+    #Pqz-img1{
+        height: 405px;
+        width: 295px;
+        float: left;
+        margin-right:10px;
+    }
+    #Pbox-img2{
+        height: 55px;
+        width: 295px;
+        margin-top:-55px;
+        background: #000;
+        opacity: 0.7;
+    }
+    #Pfont-qz2{
+        line-height: 55px;
+        font-size: 23px;
+        color: #fff;
+        float: left;
+        margin-left:10px;
+    }
+    #Pfont-qz3{
+        font-size: 35px;
+        color: #fff;
+        margin-top:4px;
+        float: left;
+    }
+    #Pqz-img2{
+        height: 200px;
+        width: 365px;
+        float: left;   
+    }
+    #Pbox-img3{
+        height: 52px;
+        width: 365px;
+        float: left;   
+        background: #000;
+        opacity: 0.7;
+        margin-top:-52px;
+    }
+
+    /* 使命 */
+    #Pbox5{
+        height: 600px;
+        width:680px;
+        background-image: url(../img/back.png);
+        background-repeat: no-repeat;
+        margin: 0 auto;
+    }
+    #box1{
+        height:2130px ;
+        background: #fff;
+    }
+    #Pbox-sm{
+        float: left;
+        height: 500px;
+        margin:45px 0 65px 0;
+        width: 680px;
+    }
+
+    /* 服务理念 */
+    #Pbox6{
+        height: 240px;
+        width: 680px;
+        margin: 0 auto;
+    }
+    #Pfont-fw1{
+        font-size:35px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    #Pbox7{
+        height: 327px;
+        width: 668px;
+        margin:0 auto;
+    }
+    #Pbox8{
+        height: 690px;
+        width: 668px;
+        background: #fff;
+        margin:0 auto;  
+        margin-top: 65px;      
+    }
+    #Pfont-ys1{
+        font-size: 35px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #Pbox8-1{
+        height:185px ;
+        width: 668px;
+        margin:0 auto;
+        border-bottom: solid #f7f7f7 2px;
+    }
+    #Pbox8-2{
+        height: 125px;
+        width: 155px;
+        float: left;
+        margin: 60px 0 0 80px;
+    }
+    #Pfont-ys2{
+        font-size: 22px;
+        color: #000;
+        margin-top: 35px;
+        float: left;
+    }
+  
+    /* 页脚 */
+    #Pbox9{
+        height: 350px;
+        width: 750px;
+        background: #343235;
+        padding-top: 100px;
+    }
+    #Pbox9-1{
+        height: 300px;
+        width: 668px;
+        margin:0 auto;
+        font-size: 25px;
+        color: #fff;
+    }   
+}

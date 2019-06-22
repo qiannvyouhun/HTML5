@@ -402,6 +402,9 @@
         margin:45px 0 65px 0;
         width: 680px;
     }
+    #lr{
+        display: none;
+    }
 
     /* 服务理念 */
     #Pbox6{
